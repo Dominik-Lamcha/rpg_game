@@ -22,5 +22,5 @@ target_link_libraries(RPG_GAME sfml-graphics sfml-audio)
 
 
 # Add the tests
-add_executable(runSimpleMathTests test_simple_lib.cpp src/simple_lib.cpp)
-target_link_libraries(runSimpleMathTests gtest gtest_main)
+add_executable(runSimpleLibTest test/test_simple_lib.cpp src/simple_lib.cpp)
+target_link_libraries(runSimpleLibTest gtest gtest_main)
