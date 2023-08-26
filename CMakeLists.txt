@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
-include_directories(${CMAKE_SOURCE_DIR}/src/include)
+include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Include Google Test in the build process
 add_subdirectory(extern/googletest)

@@ -1,0 +1,2 @@
+Game class
+Is a base game class that will be run in main function
